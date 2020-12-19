@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  text-decoration: none;
+}
+
+.login_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 188, 212, 1);
+}
+
+form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  margin: 0 0 15px 0;
+  padding: 9px 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+label {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  width: 50%;
+  border: none;
+  background: transparent;
+  background-color: rgba(0, 188, 212, 1);
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="login_form">
+      <form action="/" method="POST">
+        <fieldset>
+          <legend>Log in</legend>
+          <table>
+            <tr>
+              <td>
+                <label for="name">Username:</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  name="username"
+                  id="name"
+                  placeholder="Enter your username..."
+                  autocomplete="off"
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="password">Password:</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Enter your password..."
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="submit" value="Log in" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
