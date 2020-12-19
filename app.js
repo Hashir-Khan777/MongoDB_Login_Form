@@ -34,7 +34,7 @@ const User = mongoose.model("user", UserShema);
 app.post("/", (req, res) => {
   res.sendFile(__dirname + "/submitted.html");
   const DB_user = new User({
-    user: JSON.stringify(req.body),
+    name: JSON.stringify(req.body),
   });
   DB_user.save()
     .then(() => console.log("User saved"))
