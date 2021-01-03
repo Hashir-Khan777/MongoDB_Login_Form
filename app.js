@@ -12,7 +12,7 @@ app.use("/", express.static(__dirname));
 app.use(bodyParser());
 
 mongoose.connect(
-  "mongodb+srv://admin:admin123@cluster0.ulzxi.mongodb.net/formdb?retryWrites=true&w=majority",
+  "mongodb+srv://admin:password@cluster0.ulzxi.mongodb.net/formdb?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 );
 
